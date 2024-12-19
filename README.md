@@ -1,1 +1,1 @@
-# P-CoT
+# Pattern-CoT
