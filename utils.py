@@ -83,7 +83,7 @@ class Decoder():
             generate_input = {
                 "input_ids":input_ids,
                 "max_new_tokens":max_length,
-                "temperature": 0.4,
+                "temperature": 0.1,
                 "repetition_penalty":1.18,
                 "top_p": 0.95,
                 #"do_sample":True,

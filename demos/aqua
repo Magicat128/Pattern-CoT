@@ -1,0 +1,28 @@
+{
+    "demo": [
+        {
+            "question": "Q: Last year, a Home Appliance Store sold an average(arithmetic mean) of 42 microwave ovens per month. In the first 10 months of this year,the store has sold an average(arithmetic mean) of only 20 microwave ovens per month. What was the average number of microwave ovens sold per month during the entire 22 months period ? Answer Choices: (A) 21 (B) 30 (C) 31 (D) 32 (E) None of the above\nA:",
+            "rationale": "Let's think step by step. We know that last year, the home appliance store sold an average of 42 microwave ovens per month for 12 months = 42 x 12 = 504 microwave ovens. Now we are told that in the first 10 months of this year, the store sold an average of 20 microwave ovens per month = 20 x 10 = 200 microwave ovens. To find out what was the average number of microwave ovens sold per month during the entire 22-month period, we need to add up all these values and divide by the total number of months: Average = (504 + 200) / 32 = 704/32 = 22.5 microwave ovens per month on average. So, the answer is option (A): 21 microwave ovens per month.",
+            "pred_ans": "A",
+            "gold_ans": "D"
+        },
+        {
+            "question": "Q: At 6% per annum simple interest, Rahul borrowed Rs. 500. What amount will he pay to clear the debt after 4 years Answer Choices: (A) 750 (B) 700 (C) 620 (D) 600 (E) None of these\nA:",
+            "rationale": "Let's think step by step. The formula for calculating simple interest is I = P x R x T, where I is the total interest paid, P is the principal amount borrowed, and R is the rate at which interest is charged per year. In this case, the principal amount borrowed is Rs. 500, the rate of interest is 6% per annum, and the time taken to repay the loan is 4 years. So, we can calculate the total interest paid as follows: I = P x R x T = 500 x 6/100 x 4 = 750 Now, if Rahul pays a total of Rs. 750 to clear his debt, then the correct answer is option A - 750.",
+            "pred_ans": "A",
+            "gold_ans": "C"
+        },
+        {
+            "question": "Q: Last year, 34 percent of Ace Book Company's sales revenue came from the sale of novels. Of the remaining revenue, 1/3 was from the sale of biographies. The company's revenue from the sale of novels was approximately, how many times its revenue from the sale of biographies? Answer Choices: (A) 1.3 (B) 1.5 (C) 2.1 (D) 2.5 (E) 3.1\nA:",
+            "rationale": "Let's think step by step. We know that 34% of Ace Book Company's sales revenue comes from novels and 1/3 of the remaining revenue is from biographies. So, if we multiply 34% by $100,000 (the total sales revenue), we get $34,000 from novel sales. Now, let's find out how much money Ace Book Company makes from biographies. If 1/3 of the remaining revenue is from biographies, then the amount of revenue from biographies is 3 x $76,000 = $228,000. Therefore, the ratio of novel sales to biography sales is $34,000 : $228,000 = 1 : 6.5 or 1/6.5. Hence, option (A) is correct.",
+            "pred_ans": "A",
+            "gold_ans": "B"
+        },
+        {
+            "question": "Q: Mark told John \"If you give me half your money I will have Rs.75. John said, \"if you give me one third of your money, I will have Rs.75/-. How much money did John have ? Answer Choices: (A) 22 (B) 60 (C) 28 (D) 26 (E) 18\nA:",
+            "rationale": "Let's think step by step. If Mark gives John half his money, then Mark has Rs.150 and John gets Rs.75 from him. Now if Mark gives John one-third of his remaining money, which is Rs.150 - Rs.75 = Rs.75, then John gets Rs.75. So the answer is A: 22.",
+            "pred_ans": "A",
+            "gold_ans": "B"
+        }
+    ]
+}

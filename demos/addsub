@@ -1,0 +1,52 @@
+{
+    "demo": [
+        {
+            "question": "Q: Sam has 86 yellow and 20 green marbles . Joan took 25 of Sam 's yellow marbles . How many yellow marbles does Sam now have ?\nA:",
+            "rationale": "Let's think step by step. We know that Sam had a total of 86 yellow marbles initially. Then, Joan took 25 of Sam's yellow marbles. So, the number of yellow marbles Sam has left is: 86 - 25 = 61 So, Sam now has 61 yellow marbles.",
+            "pred_ans": "61",
+            "gold_ans": "61"
+        },
+        {
+            "question": "Q: Mary found 18 seashells and Jessica found 41 seashells on the beach . How many seashells did they find together ?\nA:",
+            "rationale": "Let's think step by step. We know that Mary found 18 seashells and Jessica found 41 seashells, so together they found 18 + 41 = 59 seashells.",
+            "pred_ans": "59",
+            "gold_ans": "59"
+        },
+        {
+            "question": "Q: There are 7 dogwood trees currently in the park . Park workers will plant 3 dogwood trees today and 2 dogwood trees tomorrow . How many dogwood trees will the park have when the workers are finished ?\nA:",
+            "rationale": "Let's think step by step. Currently, there are 7 dogwood trees in the park. Today, workers will plant 3 more dogswood trees, so now there are 7 + 3 = 10 dogwood trees. Tomorrow, workers will plant 2 more dogwood trees, so now there are 10 + 2 = 12 dogwood trees in the park. Therefore, when the workers are finished, there will be 12 dogwood trees in the park.",
+            "pred_ans": "12",
+            "gold_ans": "12"
+        },
+        {
+            "question": "Q: Alyssa picked 25 limes and Mike picked 32 limes . Tom picked 12 plums . How many limes were picked in all ?\nA:",
+            "rationale": "Let's think step by step. We know that Alyssa picked 25 limes, Mike picked 32 limes, and Tom picked 12 plums. To find out how many limes were picked in total, we need to add the number of limes each person picked. So, let's do that: 25 + 32 = 57 So, a total of 57 limes were picked.",
+            "pred_ans": "57",
+            "gold_ans": "57"
+        },
+        {
+            "question": "Q: Tom has 9 yellow balloons Sara has 8 yellow balloons . How many yellow balloons do they have in total ?\nA:",
+            "rationale": "Let's think step by step. Tom has 9 yellow balloons, and Sara has 8 yellow balloons. So together, they have 9 + 8 = 17 yellow balloons.",
+            "pred_ans": "17",
+            "gold_ans": "17"
+        },
+        {
+            "question": "Q: There were a total of 8 football games this year , 4 are played at night . Keith missed 4 of the games . How many football games did Keith go to in total ?\nA:",
+            "rationale": "Let's think step by step. We know that there were 8 football games in total, and 4 of them were played at night. So, if Keith missed 4 games, he must have gone to 8 - 4 = 4 games.",
+            "pred_ans": "4",
+            "gold_ans": "4"
+        },
+        {
+            "question": "Q: Tom found 5 seashells on the beach . he gave Jessica 2 of the seashells . How many seashells does he now have ?\nA:",
+            "rationale": "Let's think step by step. Tom had 5 seashells to start with, and then he gave Jessica 2 of them. So, how many seashells does Tom have left? Well, if he gave away 2 shells, that means he has fewer shells than before! So, Tom now has 3 seashells.",
+            "pred_ans": "3",
+            "gold_ans": "3"
+        },
+        {
+            "question": "Q: Milford Lake was originally blue because it only had 809 algae plants . Now there are 3263 algae plants , and the lake has turned green . How many more algae plants are in Milford Lake now ?\nA:",
+            "rationale": "Let's think step by step. We know that initially, Milford Lake had 809 algae plants, which made it blue. Now, we are told that there are 3263 algae plants in the lake, which has caused it to turn green. To find out how many more algae plants are present in the lake now, we need to subtract the initial number of algae plants from the current number. So, the answer is: 3263 - 809 = 2454 Therefore, there are 2454 additional algae plants in Milford Lake compared to its original state.",
+            "pred_ans": "2454",
+            "gold_ans": "2454"
+        }
+    ]
+}
