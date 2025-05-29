@@ -129,7 +129,7 @@ def main():
                 answer_seg = ""
 
     if args.method == "auto_cot":
-        corpus_embeddings = encoder.encode(rationale)
+        corpus_embeddings = encoder.encode(corpus)
     elif args.method == "pattern_cot":
         corpus_embeddings = encoder.encode(reasoning_pattern)
 
