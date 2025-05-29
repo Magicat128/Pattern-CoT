@@ -1,0 +1,52 @@
+{
+    "demo": [
+        {
+            "question": "Q: Mary is baking a cake. The recipe calls for 11 cups of sugar 6 cups of flour and 9 cups of salt. She already put in 12 cups of flour. How many more cups of sugar than cups of salt does she need to add now?\nA:",
+            "rationale": "Let's think step by step. We know that the total amount of sugar, flour, and salt needed for the recipe is 11 + 6 + 9 = 26 cups. Since Mary has already added 12 cups of flour, we can subtract this amount from the total amount of ingredients needed: 26 - 12 = 14 cups. So, Mary needs to add 14 cups of sugar and 0 cups of salt (since she has already added 9 cups).",
+            "pred_ans": "14",
+            "gold_ans": "2"
+        },
+        {
+            "question": "Q: Paco had 28 cookies. He ate some of them and had 7 cookies left. How many cookies did Paco eat?\nA:",
+            "rationale": "Let's think step by step. If Paco had 28 cookies, that means he started with x cookies. Since he had 7 cookies left after eating some, we can write an equation: x - 7 = 28. Now solve for x to find out how many cookies Paco ate: x = 35. So, Paco ate 35 cookies.",
+            "pred_ans": "35",
+            "gold_ans": "21"
+        },
+        {
+            "question": "Q: A chef had 58 apples. After making some pies, he had used 35. How many apples remained?\nA:",
+            "rationale": "Let's think step by step. The chef started with 58 apples and made some pies using 35 of them. So, the number of apples left is equal to 58 - 35 = 23.",
+            "pred_ans": "23",
+            "gold_ans": "23"
+        },
+        {
+            "question": "Q: Emily is making bead necklaces for her friends. She was able to make 6 necklaces and she had 18 beads. How many beads did each necklace need?\nA:",
+            "rationale": "Let's think step by step. If Emily made 6 necklaces, then the total number of beads used must be equal to 6 times the number of beads per necklace. Since there are 18 beads in total, we can write the equation: 6 x Number of beads per necklace = 18 Now, let's solve for the number of beads per necklace: Number of beads per necklace = 18 / 6 So, each necklace needed approximately 3 beads.",
+            "pred_ans": "3",
+            "gold_ans": "3"
+        },
+        {
+            "question": "Q: There are many different books in the ' crazy silly school ' series. If you have read 13 of the books and are yet to read 8 books How many books are there in the ' crazy silly school ' series?\nA:",
+            "rationale": "Let's think step by step. You have read 13 books from the \"crazy silly school\" series, which means that you still need to read 8 more books. So, the total number of books in this series is 13 + 8 = 21 books.",
+            "pred_ans": "21",
+            "gold_ans": "21"
+        },
+        {
+            "question": "Q: The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 19 inches. The frog jumped 10 inches farther than the grasshopper and the mouse jumped 20 inches farther than the frog. How much farther did the mouse jump than the grasshopper?\nA:",
+            "rationale": "Let's think step by step. We know that the frog jumped x inches more than the grasshopper. So, if the grasshopper jumped 19 inches, then the frog jumped x + 19 = 39 inches. Now we can find out how far the mouse jumped by subtracting its distance from the frog's distance: Mouse jumped x + 19 - 39 = -20 inches less than the frog. Therefore, the mouse jumped 49 inches.",
+            "pred_ans": "49",
+            "gold_ans": "30"
+        },
+        {
+            "question": "Q: Julia played tag with 4 kids on wednesday. She had played with 6 kids on monday and 17 kids on tuesday. How many more kids did she play with on monday than on wednesday?\nA:",
+            "rationale": "Let's think step by step. On Monday, Julia played with 6 kids. On Wednesday, she played with 4 kids. So, the difference between the number of kids she played with on Monday and Wednesday is: 6 - 4 = 2 So, Julia played with 2 more kids on Monday than on Wednesday.",
+            "pred_ans": "2",
+            "gold_ans": "2"
+        },
+        {
+            "question": "Q: There are 270 students in a school. If the school has 5 students in each grades and each grade has the same number of students How many grades are there in total?\nA:",
+            "rationale": "Let's think step by step. Since there are 270 students in the school, if we divide it by 5 (the number of students per grade), we get 54 grades. So, there are 54 grades in total.",
+            "pred_ans": "54",
+            "gold_ans": "54"
+        }
+    ]
+}
